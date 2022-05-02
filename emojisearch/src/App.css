@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+img {
+  width: 32px;
+  aspect-ratio: auto 32 / 32;
+  height: 32px;
+  padding: 0 1.5rem;
+}
+header{
+  font-size: 32px;
+}
+.search-bar{
+  width: 90%;
+  height: 2rem;
+  margin: 1rem 2rem 0.5rem 2rem;
+}
+.search-result{
+  text-align: left;
+  padding: 1rem 0;
+}
+.search-result-row{
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 0.5px solid #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 9fr;
+  align-items: center;
+}
+.search-result-row:hover{
+  background-color: #ddd;
+}
+.search-result-row .info{
+  display: none;
+  color: #777;
+  justify-self: end;
+}
+.search-result-row:hover .info{
+  display: inline-block;
+}
